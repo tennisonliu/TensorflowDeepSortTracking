@@ -1,3 +1,4 @@
+'''
 import cv2
 import time
 from threads.ImageInput.AbstractImageInputThread \
@@ -38,3 +39,4 @@ class VideoThread(AbstractImageInputThread):
                 self.image_data.image_np = image_np
             
             time.sleep(self.SLEEP_TIME)
+'''
